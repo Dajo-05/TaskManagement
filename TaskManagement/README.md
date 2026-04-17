@@ -180,9 +180,9 @@ dotnet ef database update
 ### Crear una Tarea (POST)
 ```json
 {
-  "title": "Completar proyecto",
-  "description": "Terminar la API de tareas",
-  "completed": false
+  "title": "string",
+  "userId": 0,
+  "extraData": "{ "Prioridad": "Alta", "FechaEntrega": "2024-12-31", "Etiquetas": "Trabajo en casa" }"
 }
 ```
 
